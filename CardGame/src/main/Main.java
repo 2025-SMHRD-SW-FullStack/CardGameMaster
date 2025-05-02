@@ -16,6 +16,7 @@ public class Main {
 		MP3Player mp3 = new MP3Player();
 		// 프로젝트 안에 music 파일 관리 시 주소를 통한 음악 재생
 		mp3.play("./유희왕 - 열정적인 듀얼리스트들.mp3");
+		
 		view.title();
 		while (true) {
 			try {
